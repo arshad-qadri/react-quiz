@@ -1,38 +1,69 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Potta+One&display=swap");
+.quiz {
+  width: 100%;
+  min-height: 100vh !important;
+  background: aliceblue;
+  position: relative;
+  overflow: hidden;
+}
+.title {
+  margin: 0;
+  text-align: center;
+  height: 80px;
+  line-height: 80px;
+  background: #2d3436;
+  color: #fff;
+  font-family: "Potta One", cursive;
+  letter-spacing: 5px;
+}
+.que,
+.score {
+  width: 500px;
+  background: #fff;
+  margin: 80px auto;
+  padding: 20px;
+  box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.3);
+  font-family: "Poppins", sans-serif;
+}
+.score {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+footer {
+  width: 100%;
+  text-align: center;
+  background: #2d3436;
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  padding: 10px 0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input {
+  cursor: pointer;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+input,
+label {
+  margin-top: 20px;
+}
+.button {
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+button {
+  padding: 10px 30px;
+  cursor: pointer;
+  border: none;
+  background: #0984e3;
+  color: #fff;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  border-radius: 5px;
+  box-shadow: 4px 3px 10px rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button:hover {
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+  background: #2695eb;
 }

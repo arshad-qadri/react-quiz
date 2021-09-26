@@ -1,7 +1,7 @@
 const data = [
   {
     id: 1,
-    que: "HTML stand for ",
+    que: " HTML stand for ",
     ansOpt: [
       { ansText: " Hypermark Language", ans: false },
       { ansText: "Hypermix language", ans: false },
@@ -21,7 +21,7 @@ const data = [
   },
   {
     id: 3,
-    que: "What are props into other components  ",
+    que: " What are props into other components  ",
 
     ansOpt: [
       { ansText: "Injected", ans: false },
@@ -39,8 +39,17 @@ const data = [
       { ansText: "Undefinded", ans: false },
       { ansText: "Number", ans: false },
     ],
-    
+  },
+  {
+    id: 5,
+    que: " CSS stands for -",
+    ansOpt: [
+      { ansText: "Cascade style sheets", ans: false },
+      { ansText: "Color and style sheets", ans: false },
+      { ansText: "Cascading style sheets", ans: true },
+      { ansText: "None of the above", ans: false },
+    ],
   },
 ];
 
-export default data
+export default data;
